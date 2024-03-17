@@ -63,7 +63,7 @@ export const Header = () => {
                             </div>
                             <div className="drawer-side">
                                 <label htmlFor="my-drawer-4" aria-label="close sidebar" className="drawer-overlay"></label>
-                                <ul className="menu p-0 sm:w-80 base:w-[100%] min-h-full bg-[#191B43] text-base-content sm:pr-4 base:pr-3">
+                                <ul className="menu p-0 sm:w-80 base:w-[100%] min-h-full bg-[#191B43] text-base-content sm:pr-4 base:pr-0">
                                     {/* Sidebar content here */}
                                     <label htmlFor="my-drawer-4" className='drawer-button base:flex sm:hidden'><button  onClick={() => document.getElementById('my-drawer-4').click()} className='w-[40px] h-[40px] rounded-lg flex items-center justify-center border-[2px] border-blue-500  absolute top-2 left-2 text-red-700 text-[23px] font-bold'><IoMdClose className='text-red' /></button></label>
                                     <Account />
