@@ -11,7 +11,7 @@ export const Account = () => {
                 <h1 className='text-[36px] font-bold text-[#fff] text-center pt-5   '>Portfolio</h1>
                 <img src={ava} alt="" />
                 <h1 className='text-[22px] font-bold text-[#fff] text-center pt-0'>Musfiqur Rahman</h1>
-            <div className='flex items-center justify-between pt-2'>
+            <div className='flex items-center justify-between pt-2 gap-3'>
                 <div className='flex flex-col items-center'>
                     <button className='w-[68px] h-[52px] border border-[#6854E6] rounded-[16px] text-white'>120</button>
                     <h1 className='text-white'>Asset</h1>
