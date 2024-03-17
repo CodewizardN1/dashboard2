@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.p{
+color: #86FDE8;
+  font-weight: 700 !important;
+
+
+}

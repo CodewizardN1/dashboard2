@@ -1,0 +1,96 @@
+.input{
+  background: linear-gradient(0deg, #161A42 69.61%, rgb(220, 220, 241) 200.29%);
+  border: 2px solid !important;
+
+border-image-source: linear-gradient(346.11deg, #212554 0.39%, rgba(81, 90, 180, 0) 76.18%) !important;
+
+
+}
+.btn{
+  background: linear-gradient(162.34deg, #161A42 22.61%, rgba(22, 26, 66, 0) 118.29%) !important;
+  border: 2px solid;
+
+border-image-source: linear-gradient(346.11deg, #212554 0.39%, rgba(81, 90, 180, 0) 76.18%) !important;
+border-radius: 16px !important;
+}
+.btn2 {
+  border: 2px solid;
+  border-image-source: linear-gradient(90deg, #1FA2FF 0%, #12D8FA 50%, #A6FFCB 100%);
+  border-image-slice: 1; /* Ensure the border image covers the entire border */
+  /* Additional styles for the button if needed */
+  border-radius: 16px !important;
+}
+.btn2:active{
+  transform: scale(0.994);
+}
+
+@media (max-width: 640px) {
+  .input{
+    width: 280px !important;
+  }
+}
+@media (max-width:550px) {
+  .text{
+    display: none !important;
+  }
+}
+@media (max-width:400px) {
+  .input{
+    display: none !important;
+  }
+  .dash{
+    display: flex !important;
+  }
+}
+
+
+.bgimg{
+ background-image: url(./assets/bg2.png);
+ background-size: cover;
+ background-position: center;
+ background-repeat: no-repeat;
+ width: 100%;
+}
+.bgimg2{
+ background-image: url(./assets/bg.png);
+ background-size: cover;
+ background-position: center;
+ background-repeat: no-repeat;
+ width: 100%;
+}
+.icon{
+  background: linear-gradient(24.06deg, #50C9C3 2.61%, #B6DE96 118.09%) !important;
+  box-shadow: 0px 13px 17px 0px rgba(140, 213, 105, 0.6) !important;
+}
+.bgc{
+  background: rgba(0, 0, 0, 0.4) !important;
+
+}
+.btn3{
+  background: rgba(22, 26, 66, 0.7);
+  border: 2px solid rgba(6, 182, 212, 1);
+  border-radius: 16px !important;
+}
+
+.scrollbar::-webkit-scrollbar{
+  margin-top: 10px !important;
+  height: 5px !important;
+  width: 100%;
+  background: #161A41 !important;
+  border-radius: 20px !important;
+}
+.scrollbar::-webkit-scrollbar-thumb{
+  background: #51BDD7;
+}
+.ornament{
+  background-image: url(./assets/Ornament.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+.text{
+  background: linear-gradient(88.82deg, #BAC1FF -0.98%, #63FEFE 54.08%, #FF3EEC 112.69%) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+}
